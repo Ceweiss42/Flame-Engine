@@ -10,7 +10,7 @@ int main(int argc, char** argv)
 	Flame::Log::Start();
 	FE_CORE_WARNING("Initialzed the Logger!");
 	int a = 5;
-	FE_CORE_INFO("Hello World! Var={0}", a);
+	FE_INFO("Hello World! Var={0}", a);
 
 	auto app = Flame::CreateApplication();
 	app->Update();
